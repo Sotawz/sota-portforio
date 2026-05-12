@@ -1,0 +1,95 @@
+/* 全体の設定：余白をたっぷり取る */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.8;
+    color: #333;
+    background-color: #fafafa;
+}
+
+header {
+    height: 60vh; /* 画面の60%をヘッダーに使う広々設計 */
+    background-image: url(53_photo1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    text-shadow: 2px 2px 10px gold;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    text-shadow: 1px 1px 5px gold;
+}
+
+section {
+    max-width: 800px; /* 横幅を絞って読みやすくする */
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+footer {
+    position: relative;
+    padding: 60px 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.sns{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sns-icon {
+    margin-top: 20px;
+    width:150px;
+    height:auto;
+    
+}
+
+.sns-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.account-name {
+    font-size: 1.2rem;
+    margin-bottom: 60px;
+    border-bottom:1px solid black;
+}
+
+.sns-links a {
+    display: inline-block;
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
